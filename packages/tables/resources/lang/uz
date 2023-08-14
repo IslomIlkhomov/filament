@@ -1,0 +1,196 @@
+<?php
+
+return [
+
+    'columns' => [
+
+        'tags' => [
+            'more' => 'va :count yana',
+        ],
+
+        'messages' => [
+            'copied' => 'Nusxa olindi',
+        ],
+
+    ],
+
+    'fields' => [
+
+        'bulk_select_page' => [
+            'label' => 'Hammasini tanlash/tanlamaslik uchun barcha elementlarni tanlang.',
+        ],
+
+        'bulk_select_record' => [
+            'label' => ':key elementini tanlash/tanlamaslik uchun tanlang.',
+        ],
+
+        'search_query' => [
+            'label' => 'Qidirish',
+            'placeholder' => 'Qidirish',
+        ],
+
+    ],
+
+    'pagination' => [
+
+        'label' => 'Sahifalararo navigatsiya',
+
+        'overview' => '{1} 1 natija ko\'rsatilmoqda|[2,*] :first dan :last gacha :total natijalar ko\'rsatilmoqda',
+
+        'fields' => [
+
+            'records_per_page' => [
+
+                'label' => 'har bir sahifada',
+
+                'options' => [
+                    'all' => 'Hammasi',
+                ],
+
+            ],
+
+        ],
+
+        'buttons' => [
+
+            'go_to_page' => [
+                'label' => ':page sahifasiga o\'tish',
+            ],
+
+            'next' => [
+                'label' => 'Keyingi',
+            ],
+
+            'previous' => [
+                'label' => 'Oldingi',
+            ],
+
+        ],
+
+    ],
+
+    'buttons' => [
+
+        'disable_reordering' => [
+            'label' => 'Yozuvlarni qayta tartiblashni tugatish',
+        ],
+
+        'enable_reordering' => [
+            'label' => 'Yozuvlarni qayta tartiblash',
+        ],
+
+        'filter' => [
+            'label' => 'Filtrlash',
+        ],
+
+        'open_actions' => [
+            'label' => 'Amallarni ochish',
+        ],
+
+        'toggle_columns' => [
+            'label' => 'Ustunlarni almashtirish',
+        ],
+
+    ],
+
+    'empty' => [
+
+        'heading' => 'Yozuvlar topilmadi',
+
+        'buttons' => [
+
+            'reset_column_searches' => [
+                'label' => 'Ustunlarni qidirishni tozalash',
+            ],
+
+        ],
+
+    ],
+
+    'filters' => [
+
+        'buttons' => [
+
+            'remove' => [
+                'label' => 'Filtrni olib tashlash',
+            ],
+
+            'remove_all' => [
+                'label' => 'Barcha filtrlarni olib tashlash',
+                'tooltip' => 'Barcha filtrlarni olib tashlash',
+            ],
+
+            'reset' => [
+                'label' => 'Filtrlarni qayta o\'rnatish',
+            ],
+
+        ],
+
+        'indicator' => 'Faol filtrlar',
+
+        'multi_select' => [
+            'placeholder' => 'Hammasi',
+        ],
+
+        'select' => [
+            'placeholder' => 'Hammasi',
+        ],
+
+        'trashed' => [
+
+            'label' => 'O\'chirilgan yozuvlar',
+
+            'only_trashed' => 'Faqat o\'chirilgan yozuvlar',
+
+            'with_trashed' => 'O\'chirilgan yozuvlar bilan',
+
+            'without_trashed' => 'O\'chirilgan yozuvlarsiz',
+
+        ],
+
+    ],
+
+    'reorder_indicator' => 'Yozuvlarni tartibga solish uchun ularni torting va tashlang.',
+
+    'selection_indicator' => [
+
+        'selected_count' => '1 yozuv tanlandi.|:count yozuv tanlandi.',
+
+        'buttons' => [
+
+            'select_all' => [
+                'label' => 'Hammasini tanlash :count',
+            ],
+
+            'deselect_all' => [
+                'label' => 'Hammasini tanlamaslik',
+            ],
+
+        ],
+
+    ],
+
+    'sorting' => [
+
+        'fields' => [
+
+            'column' => [
+                'label' => 'Saralash bo\'yicha',
+            ],
+
+            'direction' => [
+
+                'label' => 'Saralash yo\'nalishi',
+
+                'options' => [
+                    'asc' => 'O\'suvchan',
+                    'desc' => 'Kamayuvchan',
+                ],
+
+            ],
+
+        ],
+
+    ],
+
+];
